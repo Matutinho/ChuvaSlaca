@@ -1,0 +1,796 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 10;
+    
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #ffffff;
+}
+
+#divBase
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: row;
+    display: flex;
+
+    background-color: #ffffff;
+}
+
+#divLeftMenu
+{
+    height: 789px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: fixed;
+    box-shadow: 2px 2px 9px rgb(0, 0, 0, 0.2);
+    flex-direction: column;
+
+    background-color: #ffffff;
+}
+
+#parTitulo
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#imgSlacaLogo
+{
+    width: 100%;
+    height: 100%;
+}
+
+#buttonsLeft
+{
+    flex-direction: column;
+    display: flex;
+}
+
+#buttonLeft1
+{
+    background-color: #ffffff;
+    border: 1px rgb(0, 0, 0, 0.3) solid;
+    border-top: none;
+    text-align: left;
+    border-right: none;
+    border-left: none;
+    height: 30px;
+}
+
+#buttonLeft1:hover
+{
+    background-color: #ffffff;
+    border: 1px rgb(0, 0, 0, 0.3) solid;
+    text-align: left;
+    border-top: none;
+    border-right: none;
+    border-left: 5px solid #ed7839;
+    height: 30px;
+}
+
+#parButLeft
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 18px;
+    color: #3a3333;
+}
+
+#buttonLeft2
+{
+    background-color: #ffffff;
+    border: 1px rgb(0, 0, 0, 0.3) solid;
+    text-align: left;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    height: 30px;
+}
+
+#buttonLeft2:hover
+{
+    background-color: #ffffff;
+    border: 1px rgb(0, 0, 0, 0.3) solid;
+    border-top: none;
+    text-align: left;
+    border-right: none;
+    border-left: 5px solid #ed7839;
+    height: 30px;
+}
+
+#divLeftMenuTitulo
+{
+    width: 100%;
+    height: 68px;
+    background-image: linear-gradient(180deg, #ed7839, #dd611e);
+}
+
+#divCenterMenu
+{
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffffff;
+}
+
+#divHeader
+{
+    height: 68px;
+    width: 100%;
+    left: 220px;
+    top: 0px;
+    border-radius: 0px;
+    flex-direction: row;
+    display: flex;
+
+    background-color: #fdf1eb;
+}
+
+#divCabTitulos
+{
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+}
+
+#parCabTitulo1
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 255px;
+    font-size: 13px;
+}
+
+#parCabTitulo2
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 255px;
+    font-size: 15px;
+    
+}
+
+#parCabTitulo3
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 255px;
+    font-size: 12px;
+}
+
+#divSelectLingua
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 135px;
+    margin-top: 17px;
+}
+
+#selectLingua
+{
+    width: 97px;
+    height: 34px;
+    text-align: right;
+    border-radius: 5px;
+    background-color: #fdf1eb;
+    background-image: url(mundoicon.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 7px;
+}
+
+#divPerfilInfo
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 65px;
+    margin-top: 10px;
+    text-align: right;
+    flex-direction: row;
+    display: flex;
+}
+
+#parPerfilInfo1
+{
+    margin: 0;
+    padding: 0;
+}
+
+#parPerfilInfo2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+#divImgPerfil
+{
+    width: 50px;
+    height: 50px;
+}
+
+#imgPerfilMat
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#divIcon2
+{
+    background-color: #da6526;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+    font-size: 8px;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 40px;
+}
+
+#divContent
+{
+    height: 100%;
+    width: 100%;
+    left: 263px;
+    top: 88px;
+    border-radius: 0px;
+    flex-direction: row;
+    display: flex;
+
+    background-color: #ffffff;
+}
+
+#divContentColumn1
+{
+    width: 220px;
+    height: 100%;
+
+    background-color: #ffffff;
+}
+
+#divContentColumn2
+{
+    width: 760px;
+    height: 100%;
+
+    background-color: #ffffff;
+}
+
+#divContentColumn3
+{
+    width: 198px;
+    height: 73%;
+    position: static;
+    margin-left: 30px;
+    margin-top: 38px;
+
+    /* background-color: rgb(35, 117, 172, 0.3); */
+}
+
+#divButsPainel2
+{
+    flex-direction: row;
+    display: flex;
+}
+
+#parDetCab1
+{
+    display: flex;
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+#divScroll
+{
+    width: 3px;
+    height: 305px;
+    background-color: rgb(189, 170, 161, 0.5);
+    position: relative;
+    left: 191px;
+    top: -320px;
+}
+
+#divBut1
+{
+    width: 100px;
+    height: 31px;
+    background-color: #dd611e;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 19px;
+    margin-right: 5px;
+    flex-direction: row;
+    display: flex;
+}
+
+#divBut2
+{
+    width: 30px;
+    height: 31px;
+    background-color: #dd611e;
+    border-radius: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#divBut3
+{
+    width: 30px;
+    height: 31px;
+    background-color: #dd611e;
+    border-radius: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#parButDown
+{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+#imgDownload
+{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#imgEstrela
+{
+    width: 15px;
+    height: 15px;
+}
+
+#imgDoi
+{
+    width: 15px;
+    height: 15px;
+}
+
+#divCabDetalhes
+{
+    width: 100%;
+    height: 45px;
+    background-color: #fdf1eb;
+    margin-top: 25px;
+}
+
+#divTextoPainel2
+{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #ed7839;
+}
+
+#divCabDetTextos
+{
+    flex-direction: column;
+    display: flex;
+    border: solid rgb(58, 51, 51, 0.1) 1px;
+    border-top: none;
+}
+
+#parTextInfo1
+{
+    font-size: 11px;
+    margin: 5px;
+    margin-bottom: 38px;
+    color: #3a3333;
+}
+
+#parTextInfo2
+{
+    font-size: 13px;
+    margin: 5px;
+    margin-bottom: 38px;
+    color: #3a3333;
+}
+
+#parTextInfo3
+{
+    font-size: 10px;
+    margin: 5px;
+
+    color: rgb(58, 51, 51, 0.5);
+}
+
+#divCabVideo
+{
+    width: 700px;
+    height: 54px;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #ed7839;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#parTituloVideo
+{
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+#divPlayerVideo
+{
+    width: 700px;
+    height: 449px;
+    margin-top: 35px;
+    margin-left: 60px;
+
+    background-image: url(backsenhor.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
+
+#imgParTexto
+{
+    position: relative;
+    top: 150px;
+    display: flex;
+}
+
+#parTextoBea
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    top: 109px;
+    left: 125px;
+    font-size: 28px;
+}
+#parTextoBea2
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    top: 109px;
+    left: 125px;
+    font-size: 16px;
+}
+
+#divImgSenhor
+{
+    width: 80px;
+    height: 81px;
+    border: 1px solid #ed7839;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 185px;
+}
+
+#senhorIco
+{
+    width: 74px;
+    height: 74px;
+    border-radius: 50px;
+}
+
+#divResumo
+{
+    height: 160px;
+    width: 910px;
+    left: 0px;
+    top: 542px;
+    margin-left: 60px;
+    border-radius: [object Object]px;
+    /* background-color: blue; */
+    position: static;
+    flex-direction: column;
+    color: #3a3333;
+}
+
+#divCabResumo
+{
+    height: 45px;
+    width: 100%;
+    background-color: #fdf1eb;
+}
+
+#divDiscussao
+{
+    height: 210px;
+    width: 910px;
+    left: 0px;
+    top: auto;
+    margin-top: 25px;
+    margin-left: 60px;
+    border-radius: [object Object]px;
+    /* background-color: blue; */
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divCabDiscConteudo
+{
+    height: 45px;
+    width: 100%;
+
+    background-color: #fdf1eb;
+}
+
+summary
+{
+    position: relative;
+    bottom: -14px;
+    left: 10px;
+    color: #3a3333;
+}
+
+#parResumo
+{
+    font-size: 13.8px;
+    text-align: justify;
+    width: 98%;
+    color: #3a3333;
+}
+
+#parDiscussaoTitle
+{
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+#divBaseDisc
+{
+    width: 100%;
+    height: 88%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(58, 51, 51, 0.1);
+    border-top: none;
+}
+
+#parComp
+{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #ed7839;
+    font-weight: bold;
+}
+
+#parComp2
+{
+    margin-top: 3px;
+    text-align: center;
+    font-size: 14px;
+    color: #3a3333;
+}
+
+#divIconesMin
+{
+    flex-direction: row;
+    display: flex;
+}
+
+#imgIcon1
+{
+    width: 30px;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+#imgIcon2
+{
+    width: 30px;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+#imgIcon3
+{
+    width: 30px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#butDisc
+{
+    align-items: center;
+    justify-content: center;
+    display: center;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    height: 30px;
+    position: relative;
+    top: 22px;
+    border: none;
+    border-radius: 5px;
+}
+
+#butDisc:hover
+{
+    align-items: center;
+    justify-content: center;
+    display: center;
+    background-color: rgb(255, 168, 68);
+    color: white;
+    height: 30px;
+    position: relative;
+    top: 22px;
+    border: none;
+    border-radius: 5px;
+}
+
+#butDiscri
+{
+    font-size: 23px;
+    color: white;
+}
+
+#parButDisc
+{
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 0;
+}
+
+#divComent1
+{
+    height: 170px;
+    width: 910px;
+    left: 0px;
+    top: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: [object Object]px;
+    /* background-color: blue; */
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 9px rgb(0, 0, 0, 0.2);
+}
+
+#divComent2
+{
+    height: 170px;
+    width: 910px;
+    left: 0px;
+    top: auto;
+    margin-top: 25px;
+    margin-left: 60px;
+    border-radius: [object Object]px;
+    /* background-color: blue; */
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 9px rgb(0, 0, 0, 0.2);
+}
+
+#divGaloa
+{
+    height: 180px;
+    width: 930px;
+    left: 0px;
+    top: auto;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: [object Object]px;
+    /* background-color: blue; */
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divComentIcons
+{
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+}
+
+#parLikeResp
+{
+    position: relative;
+    top: -13px;
+    left: 0px;
+    margin-left: 10px;
+    color: #3a3333;
+}
+
+#parComent1
+{
+    position: relative;
+    top: 15px;
+    left: 18px;
+    color: #ed7839;
+    font-weight: bold;
+}
+#parComent2
+{
+    position: relative;
+    top: 15px;
+    left: 18px;
+    color: #3a3333;
+}
+#parComent3
+{
+    position: relative;
+    top: 15px;
+    left: 18px;
+    color: #3a3333;
+}
+
+#imgIcon01
+{
+    width: 25px;
+    height: 18px;
+    margin: 5px;
+    position: relative;
+    top: 1px;
+}
+
+#imgGaloaPag
+{
+    width: 930px;
+    position: relative;
+    top: 15px;
+}
